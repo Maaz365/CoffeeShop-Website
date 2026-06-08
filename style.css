@@ -1,0 +1,101 @@
+body {
+  font-family: serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #6f4c3e;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: all .4s ease;
+}
+
+nav a:hover{
+  opacity: .7;
+}
+
+#hero {
+  text-align: center;
+  margin: 20px;
+}
+
+#menu h2{
+  font-family: serif;
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+#menu img {
+  width: 300px;
+  height: 200px;
+}
+
+#menu li {
+  margin-bottom: 10px;
+}
+
+#menu li strong{
+  font-size: 23px;
+  margin: 0 20px;
+}
+
+#contact h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+#contact form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 50px;
+  margin: 30px  100px 100px 100px;
+  padding: 50px 0;
+  box-shadow: 5px 5px 5px rgba(159, 125, 82, 0.3);
+  background: rgb(92, 90, 88);
+  color: white;
+  border-radius: 5px;
+}
+
+
+#contact form button{
+  padding: 10px 60px;
+  background: saddlebrown;
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  transition: all .5s ease;
+  font-size: 20px;
+}
+
+#contact form button:hover{
+  background: rgb(166, 99, 51);
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
